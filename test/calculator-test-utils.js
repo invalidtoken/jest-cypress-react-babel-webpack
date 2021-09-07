@@ -1,8 +1,8 @@
 import React from 'react'
 import {render as rtl} from '@testing-library/react'
 import {ThemeProvider} from 'emotion-theming'
-import {dark} from 'themes'
 import PropTypes from 'prop-types'
+import {dark} from 'themes'
 
 function render(ui, options) {
   function wrapper({children}) {
