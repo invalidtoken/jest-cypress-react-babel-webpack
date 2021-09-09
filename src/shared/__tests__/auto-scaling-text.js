@@ -5,3 +5,7 @@ import AutoScalingText from '../auto-scaling-text'
 test('renders', () => {
   render(<AutoScalingText />)
 })
+
+test('renders 2', () => {
+  render(<AutoScalingText />)
+})
